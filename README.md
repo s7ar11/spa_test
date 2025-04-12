@@ -1,24 +1,29 @@
-# vue-tasks-app
+# Vue Task Manager
 
-## Project setup
-```
-npm install
-```
+Простое приложение для управления задачами на Vue.js 3
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Как запустить
 
-### Compiles and minifies for production
-```
-npm run build
-```
+1. Установите Node.js (версия 14+)
+2. Скачайте проект
+3. В папке проекта выполните:
 
-### Lints and fixes files
-```
-npm run lint
-```
+`npm install
+npm run serve`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Приложение будет доступно по адресу:
+http://localhost:8080
+
+#Функции
+✔ Загрузка задач из файла tasks.json
+✔ Отметка выполненных задач
+✔ Сохранение состояния в браузере
+✔ Адаптивный дизайн
+
+#Если что-то не работает
+Удалите папку `node_modules` и файл `package-lock.json`
+
+Выполните:
+
+`npm install
+npm run serve`
