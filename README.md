@@ -25,5 +25,6 @@ http://localhost:8080
 
 Выполните:
 
-`npm install
-npm run serve`
+```bash
+npm install
+npm run serve
